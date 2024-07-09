@@ -4,7 +4,7 @@ info:
   contact: {}
   version: '1.0'
 servers:
-  - url: https://jobs-tracker-api-ry52.onrender.com
+  - url: https://jobs-tracker-api-ry52.onrender.com/api/v1
     variables: {}
 paths:
   /auth/register:
