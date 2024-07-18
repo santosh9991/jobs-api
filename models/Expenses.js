@@ -12,6 +12,14 @@ const expenseSchema = mongoose.Schema({
         type: String,
         require: [true, 'Please provide the merchant details']
     },
+    purchaseDate: {
+        type: Date,
+        required: [true, 'Please provide the purchase date']
+    },
+    description:{
+        type: String,
+        default: ''
+    },
     createdBy: {
         type: mongoose.Types.ObjectId,
         ref: 'User',
